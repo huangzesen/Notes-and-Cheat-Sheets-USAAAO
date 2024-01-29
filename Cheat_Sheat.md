@@ -9,6 +9,7 @@ This is a cheat sheet for USAAAO
 $$
 F_g = \frac{G M m}{r^2}
 $$
+
 This is known as the *Inversed-Squared* law of gravity. $G$ is the Gravitational Constant.
 
 #### Gravity Potential Energy: Point Mass
