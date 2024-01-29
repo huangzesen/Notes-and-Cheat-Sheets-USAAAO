@@ -164,7 +164,7 @@ where $\omega_0$ is the angular velocity of the planet's rotation, and $\omega_1
 
 ## Celestial Coordinates and Time
 
-**Examples:** 2023-Q1|17|18; 2022-Q24|25|28|30
+**Examples:** 2023-Q1|17|18; 2022-Q24|25|28|30
 
 ## Telescope & Star Magnitudes
 
@@ -174,7 +174,7 @@ where $\omega_0$ is the angular velocity of the planet's rotation, and $\omega_1
 
 One *parsec*$\approx 3.26\ ly$  is the parallax of the distant star from a triangle of 1AU and 1 arcsec
 
-![Parallax](/Users/huangzesen/Library/CloudStorage/GoogleDrive-zesenhuang@g.ucla.edu/My Drive/Tutoring/Notes and Cheat Sheets/figures/440px-Stellarparallax_parsec1.svg.png)
+![Parallax](./figures/440px-Stellarparallax_parsec1.svg.png)
 
 Some confusing notations:
 
@@ -193,7 +193,7 @@ $$
 
 where $\lambda$ is the light wavelength, $d$ is the diameter of the lens. To **differentiate** two light source, they have to be $\theta$ away from each other.
 
-![Airy Pattern](/Users/huangzesen/Library/CloudStorage/GoogleDrive-zesenhuang@g.ucla.edu/My Drive/Tutoring/Notes and Cheat Sheets/figures/Beugungsscheibchen.k.720.jpg)
+![Airy Pattern](./figures/Beugungsscheibchen.k.720.jpg)
 
 ### Telescope Parameters
 
