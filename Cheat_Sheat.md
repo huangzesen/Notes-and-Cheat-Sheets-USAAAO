@@ -14,18 +14,23 @@ This is known as the *Inversed-Squared* law of gravity. $G$ is the Gravitational
 #### Gravity Potential Energy: Point Mass
 
 Assuming the potential energy at infinity is *zero*, by integrating the gravity law, we have the potential energy at $R$:
+
 $$
 U=\int_\infty^{R} \frac{GMm}{r^2}dr=-\frac{G M m}{R}
 $$
+
 Therefore the *Sun* can be visualized as a *Gravitational Well* , in which the deeper you get, the less energy you have.
 
 #### Gravity Potential Energy: Uniform Ball
 
 A ball with mass $M$ and radius $R$, assuming uniform density:
+
 $$
 \rho = \frac{M}{\frac{4}{3}\pi R^3}
 $$
+
 The potential energy is:
+
 $$
 \begin{aligned}
 U=\int_0^RdU & =\int_0^R -\frac{G M(r) dm}{r} \\
@@ -34,6 +39,7 @@ U=\int_0^RdU & =\int_0^R -\frac{G M(r) dm}{r} \\
  &= -\frac{3}{5} \frac{GM^2}{R}
 \end{aligned}
 $$
+
 Together with *viral theorem*: $\langle K\rangle = -\frac{1}{2}\langle U \rangle$, one can link the observational properties (velocities->kinetic energy) to its mass
 
 ### Conservation of Momentum
@@ -41,6 +47,7 @@ Together with *viral theorem*: $\langle K\rangle = -\frac{1}{2}\langle U \rangle
 **Examples:** 
 
 Without the effects of *force*, the momentum of the system is conserved:
+
 $$
 \vec P = \sum_{m} \vec p = \sum_m m \vec v = const
 $$
@@ -50,6 +57,7 @@ $$
 **Examples:** 
 
 Without the effects of *torque*, the angular momentum of the system (referenced at a give point) is conserved
+
 $$
 \vec L = \sum_m \vec l = \sum_m \vec r\times m \vec v = const
 $$
@@ -57,10 +65,13 @@ $$
 ### Conservation of Energy
 
 The total energy: Kinetic+Potential is **conserved** for planets:
+
 $$
 E = K+U = \frac{1}{2}mv^2-\frac{GMm}{r}
 $$
+
 For a elipse orbit with semi-major axis $a$: (Derivation: Conservation of energy at aphelia and perihelia)
+
 $$
 E = -\frac{GMm}{2a} = \frac{1}{2}mv^2-\frac{GMm}{r}
 $$
@@ -76,10 +87,13 @@ $E = -\frac{GMm}{2a}$ is known as the *orbital energy*. One immediately notices 
 #### Vis-Viva Equation
 
 Due to the conservation of orbital energy, one calculate velocity based on distance $r$:
+
 $$
 v=\sqrt{GM\left(\frac{2}{r}-\frac{1}{a}\right)}
 $$
+
 This is known as the *vis-viva* equation. The *escape* velocity is:
+
 $$
 v_{excape}=\sqrt{\frac{2GM}{r}}
 $$
@@ -90,10 +104,13 @@ $$
 #### Viral Theorem
 
 In statistical mechanics, people are often interested in the averaged behavior of an ensemble of particles, one of the most important results is the *viral theorem*:
+
 $$
 \langle K\rangle = -\frac{1}{2}\langle U \rangle
 $$
+
 And therefore the total energy:
+
 $$
 \langle E \rangle = \langle K\rangle + \langle U \rangle = -\langle K \rangle = \frac{1}{2}\langle U\rangle
 $$
@@ -152,6 +169,7 @@ $$
 **Examples:** 2020-Q12; 
 
 We denote sidereal day as $t_{sid}$ and Solar Day as $t_{sol}$, we have:
+
 $$
 t_{sid} = \frac{2\pi}{\omega_0}
 $$
@@ -226,15 +244,19 @@ The magnification $m=f_o/f_e$ is the ratio between the focal length of $objectiv
 The ultimate physical carrier of light is the flux of photons (or electric-magnetic field), which follows the *inversed-squared law*. Magnitude is a *representation* of the *relative* amount of flux. The definition is that:
 
 > Five unit of *magnitude* = 100 difference in $flux$
+> 
 > $$
 > 100^{\frac{m_1-m_2}{5}} = \frac{F_2}{F_1}
 > $$
 
 This can be rewritten in terms of distance (for same type of star):
+
 $$
 10^{\frac{m_1-m_2}{5}} = \frac{d_1}{d_2}
 $$
+
 And in log10 in terms of distance:
+
 $$
 m_1 - m_2 = 5 \log_{10}d_1 - 5 \log_{10} d_2
 $$
@@ -242,6 +264,7 @@ $$
 #### Absolute Magnitude $M$
 
 The apparent magnitude of a star measured at $10 pc$  ($\log_{10}(10pc)=1$):
+
 $$
 M = m-5\log_{10}(d_{pc})+5
 $$
@@ -249,9 +272,11 @@ $$
 #### Extinction
 
 Due to the existence of dust, the light can dim:
+
 $$
 m-M=5 * \log (d)-5+a_V * d
 $$
+
 Where $a_{V}$ is the interstellar extinction in the unit of $mag/pc$ or $mag/kpc$
 
 **Examples:** 2021-Q23, 2019-Q13
@@ -267,9 +292,11 @@ If the velocity is comparable to the speed of light $c$, the relativity effects 
 **Examples:** 2023-Q11, 2022-Q12|15, 2021-Q20, 2020-Q15
 
 The mass and energy is equivalent:
+
 $$
 E=mc^2
 $$
+
 The loss of mass is identical to the loss of energy. This is the ultimate source of energy in the universe: *Fusion in the stars*.
 
 #### Lorentz Coefficient
@@ -283,10 +310,13 @@ For a moving body, the time flow is slower "*Time dilation*": ($S'$ is the movin
 $$
 \Delta t'=\gamma \Delta t
 $$
+
 The "*length contraction*":
+
 $$
 \Delta x'=\frac{\Delta x}{\gamma}
 $$
+
 **Examples:** 2023-Q15, 
 
 ### Hubble's Law & Red Shift
@@ -294,18 +324,25 @@ $$
 **Examples:** 2023-Q27; 2022-Q29;2021-Q8|12|26
 
 The universe is constantly expanding with a coefficient $H_0=70 km/s /Mpc$, the expanding speed is:
+
 $$
 v=H_0 D
 $$
+
 The resulting "red-shift velocity" is **defined** to be:
+
 $$
 v_{rs}=c z
 $$
+
 where $z$ is the red shift. In low velocity case, this can be related to the real red-shift in observed wavelength using the  *Fizeau-Doppler Formula*:
+
 $$
 z=\frac{\lambda_{\mathrm{o}}}{\lambda_{\mathrm{e}}}-1=\sqrt{\frac{1+\frac{v}{c}}{1-\frac{v}{c}}}-1 \approx \frac{v}{c}
 $$
+
 where $\lambda_o$ and $\lambda_e$ is the observed and emitted wavelength. Since the speed of light is constant, this can also be used to calculate the change in frequency:
+
 $$
 \frac{\nu_e}{\nu_o} =\sqrt{\frac{1+\frac{v}{c}}{1-\frac{v}{c}}}
 $$
@@ -313,10 +350,13 @@ $$
 #### Critical Density of the Universe
 
 Replace the escape velocity with the speed of the light from Hubble's expansion:
+
 $$
 c=H_0 r=\sqrt{\frac{2GM}{r}}
 $$
+
 We have:
+
 $$
 \rho = \frac{M}{\frac{4}{3}\pi r^3} = \frac{3 H_0^2}{8\pi G} \simeq9.22 \times 10^{-27} kg \cdot m^{-3}
 $$
