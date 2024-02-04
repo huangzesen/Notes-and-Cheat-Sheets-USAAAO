@@ -185,6 +185,84 @@ where $\omega_0$ is the angular velocity of the planet's rotation, and $\omega_1
 
 **Examples:** 2023-Q1|17|18; 2022-Q24|25|28|30
 
+### Trigonometry
+
+![Trigonometry](./figures/Triangle_with_notations_2.svg.png)
+
+#### Length of Arc
+
+Circumfurence: $2\pi r$
+
+Length of Arc: $\theta r$
+
+#### Law of Cosine
+
+$$
+\begin{aligned}
+a^2&=b^2+c^2-2bc\cos\alpha\\
+b^2&=a^2+c^2-2ac\cos\beta\\
+c^2&=a^2+b^2-2bc\cos\gamma
+\end{aligned}
+$$
+
+Derivation:
+$$
+\overrightarrow{BC}=\overrightarrow{AC}-\overrightarrow{AB}
+$$
+
+$$
+\begin{aligned}
+|\overrightarrow{BC}|^2&=|\overrightarrow{AC}-\overrightarrow{AB}|^2\\
+&=|\overrightarrow{AC}|^2+|\overrightarrow{AB}|^2-2\overrightarrow{AC}\cdot\overrightarrow{AB}\\
+a^2&=b^2+c^2-2bc\cos\alpha
+\end{aligned}
+$$
+
+#### Law of Sine
+
+$$
+\frac{a}{\sin\alpha}=\frac{b}{\sin\beta}=\frac{c}{\sin\gamma}
+$$
+
+### Spherical Trigonometry
+
+![Spherical Trinometry](./figures/400px-Spherical_trigonometry_Intersecting_circles.svg.png)
+
+#### Spherical Law of Cosine
+
+$$
+\begin{aligned}
+& \cos a=\cos b \cos c+\sin b \sin c \cos A \\
+& \cos b=\cos c \cos a+\sin c \sin a \cos B \\
+& \cos c=\cos a \cos b+\sin a \sin b \cos C
+\end{aligned}
+$$
+
+#### Spherical Law of Sine
+
+$$
+\frac{\sin A}{\sin a}=\frac{\sin B}{\sin b}=\frac{\sin C}{\sin c}
+$$
+
+#### Area of the Spherical Triangle
+
+$$
+Area\ of\ triangle =A+B+C-\pi,
+$$
+
+### Celestial Coordinate
+
+#### Circumpolar 
+
+$$
+90-\delta<\lambda
+$$
+
+$\lambda$ is latitude, $\delta$ is declination
+
+
+![Circumpolar](./figures/circumpolar.png)
+
 ## Telescope & Star Magnitudes
 
 ### Parallax
@@ -362,6 +440,21 @@ $$
 \rho = \frac{M}{\frac{4}{3}\pi r^3} = \frac{3 H_0^2}{8\pi G} \simeq9.22 \times 10^{-27} kg \cdot m^{-3}
 $$
 
+## MISC
+
+### Signal to Noise Ratio
+
+Proportional to $\sqrt{N}$ , where $N$ is the number of measurements or exposure time
+
+**Examples:** 2022-Q27
+
+### Energy of E&M Wave
+
+Poynting Flux: 
+$$
+\vec S = \vec E\times \vec B
+$$
+is *independent* of frequency
 
 # Constants and Notations
 
