@@ -1,18 +1,18 @@
-# Formulas
-
 This is a cheat sheet for USAAAO
 
-## Orbital Dynamics
+# Orbital Dynamics
 
-### Newton Gravity Law
+## Newton Gravity Law
+
 
 $$
 F_g = \frac{G M m}{r^2}
 $$
 
+
 This is known as the *Inversed-Squared* law of gravity. $G$ is the Gravitational Constant.
 
-#### Gravity Potential Energy: Point Mass
+### Gravity Potential Energy: Point Mass
 
 Assuming the potential energy at infinity is *zero*, by integrating the gravity law, we have the potential energy at $R$:
 
@@ -22,7 +22,7 @@ $$
 
 Therefore the *Sun* can be visualized as a *Gravitational Well* , in which the deeper you get, the less energy you have.
 
-#### Gravity Potential Energy: Uniform Ball
+### Gravity Potential Energy: Uniform Ball
 
 A ball with mass $M$ and radius $R$, assuming uniform density:
 
@@ -43,7 +43,7 @@ $$
 
 Together with *viral theorem*: $\langle K\rangle = -\frac{1}{2}\langle U \rangle$, one can link the observational properties (velocities->kinetic energy) to its mass
 
-### Conservation of Momentum
+## Conservation of Momentum
 
 **Examples:** 
 
@@ -53,7 +53,7 @@ $$
 \vec P = \sum_{m} \vec p = \sum_m m \vec v = const
 $$
 
-### Conservation of Angular Momentum
+## Conservation of Angular Momentum
 
 **Examples:** 
 
@@ -63,7 +63,7 @@ $$
 \vec L = \sum_m \vec l = \sum_m \vec r\times m \vec v = const
 $$
 
-### Conservation of Energy
+## Conservation of Energy
 
 The total energy: Kinetic+Potential is **conserved** for planets:
 
@@ -77,7 +77,7 @@ $$
 E = -\frac{GMm}{2a} = \frac{1}{2}mv^2-\frac{GMm}{r}
 $$
 
-#### Orbital Energy
+### Orbital Energy
 
 $E = -\frac{GMm}{2a}$ is known as the *orbital energy*. One immediately notices three properties:
 
@@ -85,7 +85,7 @@ $E = -\frac{GMm}{2a}$ is known as the *orbital energy*. One immediately notices 
 - Increase in *orbital energy* will increase $a$ until it becomes a parabola, or even hyperbola
 - A meteorite is *trapped* when $E<0$, it *escapes* when $E\ge0$.
 
-#### Vis-Viva Equation
+### Vis-Viva Equation
 
 Due to the conservation of orbital energy, one calculate velocity based on distance $r$:
 
@@ -102,7 +102,7 @@ $$
 
 **Examples:** 2021-Q15
 
-#### Viral Theorem
+### Viral Theorem
 
 In statistical mechanics, people are often interested in the averaged behavior of an ensemble of particles, one of the most important results is the *viral theorem*:
 
@@ -118,15 +118,15 @@ $$
 
 **Examples:** 2021-Q9
 
-### Kepler's Law
+## Kepler's Law
 
 **Examples:** 2023-Q21
 
-#### First Law
+### First Law
 
 *The orbit of a planet is an ellipse with the Sun at one of the two foci.*
 
-#### Second Law
+### Second Law
 
 *line segment joining a planet and the Sun sweeps out equal areas during equal intervals of time.*
 
@@ -154,18 +154,18 @@ $$
 
 is the small change in the area
 
-#### Third Law
+### Third Law
 
 *The square of a planet's orbital period is proportional to the cube of the length of the semi-major axis of its orbit.*
 
-Simple derivation can be inferred from circular orbit, where the **centrifugal force balances the gravity force** ($v\omega=v^2/r=\omega^2r$ is know as the **centrifugal acceleration**):
+Simple derivation can be inferred from circular orbit, where the **centrifugal force balances the gravity force** ($v\omega=v^2/r=\omega^2r$ is know as the **centrifugal acceleration**):
 
 $$
 \frac{G M m}{a^2} = m \frac{v^2}{a}=m \omega^2 a  = m \left(\frac{2\pi}{T}\right)^2 a \\
 \frac{G M}{4\pi^2} = \frac{a^3}{T^2}
 $$
 
-### Sidereal Day and Solar Day
+## Sidereal Day and Solar Day
 
 **Examples:** 2020-Q12; 
 
@@ -181,21 +181,21 @@ $$
 
 where $\omega_0$ is the angular velocity of the planet's rotation, and $\omega_1$ is the angular velocity of orbital revolution, $\theta$ is the tilt angle.
 
-## Celestial Coordinates and Time
+# Celestial Coordinates and Time
 
 **Examples:** 2023-Q1|17|18; 2022-Q24|25|28|30
 
-### Trigonometry
+## Trigonometry
 
 ![Trigonometry](./figures/Triangle_with_notations_2.svg.png)
 
-#### Length of Arc
+### Length of Arc
 
 Circumfurence: $2\pi r$
 
 Length of Arc: $\theta r$
 
-#### Law of Cosine
+### Law of Cosine
 
 $$
 \begin{aligned}
@@ -218,17 +218,17 @@ a^2&=b^2+c^2-2bc\cos\alpha
 \end{aligned}
 $$
 
-#### Law of Sine
+### Law of Sine
 
 $$
 \frac{a}{\sin\alpha}=\frac{b}{\sin\beta}=\frac{c}{\sin\gamma}
 $$
 
-### Spherical Trigonometry
+## Spherical Trigonometry
 
 ![Spherical Trinometry](./figures/400px-Spherical_trigonometry_Intersecting_circles.svg.png)
 
-#### Spherical Law of Cosine
+### Spherical Law of Cosine
 
 $$
 \begin{aligned}
@@ -238,22 +238,22 @@ $$
 \end{aligned}
 $$
 
-#### Spherical Law of Sine
+### Spherical Law of Sine
 
 $$
 \frac{\sin A}{\sin a}=\frac{\sin B}{\sin b}=\frac{\sin C}{\sin c}
 $$
 
-#### Area of the Spherical Triangle
+### Area of the Spherical Triangle
 
 $$
 Area\ of\ triangle =A+B+C-\pi\\
 Total\ Area=4\pi
 $$
 
-### Celestial Coordinate
+## Celestial Coordinate
 
-#### Circumpolar 
+### Circumpolar 
 
 $$
 90-\delta<\lambda
@@ -264,9 +264,9 @@ $\lambda$ is latitude, $\delta$ is declination
 
 ![Circumpolar](./figures/circumpolar.png)
 
-## Telescope & Star Magnitudes
+# Telescope & Star Magnitudes
 
-### Parallax
+## Parallax
 
 **Examples:** 
 
@@ -279,7 +279,7 @@ Some confusing notations:
 - $mac$: micro-arcsec = $10^{-3} arcsec$
 - $Mpc$: Million-parsec = $10^{6} pc$ 
 
-### The Airy Spot
+## The Airy Spot
 
 **Examples:** 2022-Q6
 
@@ -293,11 +293,11 @@ where $\lambda$ is the light wavelength, $d$ is the diameter of the lens. To **d
 
 ![Airy Pattern](./figures/Beugungsscheibchen.k.720.jpg)
 
-### Telescope Parameters
+## Telescope Parameters
 
 **Examples:** 2021-Q13, 2023-Q2|Q24
 
-####  $f$ number (focal ratio)
+###  $f$ number (focal ratio)
 
 The focal ratio is the ratio between the focal length $f$ and the diameter of the aperture $d$:
 
@@ -309,17 +309,17 @@ This number is usually denoted as $f/N$.
 
 For example, $f/2$ means $f = 2d$, the *larger the number, the worse the telescope*.
 
-#### Magnification
+### Magnification
 
 The magnification $m=f_o/f_e$ is the ratio between the focal length of $objective$ and $eyepiece$ lens.
 
 
 
-### The Apparent and Absolute Magnitude
+## The Apparent and Absolute Magnitude
 
 **Examples:** 2023-Q2|13; 2022-Q8|18|20; 2021-Q22|23; 2020-Q13; 2019-Q13, 2018-Q13|21
 
-#### Magnitude and Flux
+### Magnitude and Flux
 
 The ultimate physical carrier of light is the flux of photons (or electric-magnetic field), which follows the *inversed-squared law*. Magnitude is a *representation* of the *relative* amount of flux. The definition is that:
 
@@ -341,7 +341,7 @@ $$
 m_1 - m_2 = 5 \log_{10}d_1 - 5 \log_{10} d_2
 $$
 
-#### Absolute Magnitude $M$
+### Absolute Magnitude $M$
 
 The apparent magnitude of a star measured at $10 pc$  ($\log_{10}(10pc)=1$):
 
@@ -349,7 +349,7 @@ $$
 M = m-5\log_{10}(d_{pc})+5
 $$
 
-#### Extinction
+### Extinction
 
 Due to the existence of dust, the light can dim:
 
@@ -361,13 +361,13 @@ Where $a_{V}$ is the interstellar extinction in the unit of $mag/pc$ or $mag/kpc
 
 **Examples:** 2021-Q23, 2019-Q13
 
-## Special Relativity, Hubble's Law & Red Shift
+# Special Relativity, Hubble's Law & Red Shift
 
-### Special Relativity
+## Special Relativity
 
 If the velocity is comparable to the speed of light $c$, the relativity effects can not be ignored.
 
-#### Mass-Energy Equation
+### Mass-Energy Equation
 
 **Examples:** 2023-Q11, 2022-Q12|15, 2021-Q20, 2020-Q15
 
@@ -379,7 +379,7 @@ $$
 
 The loss of mass is identical to the loss of energy. This is the ultimate source of energy in the universe: *Fusion in the stars*.
 
-#### Lorentz Coefficient
+### Lorentz Coefficient
 
 $$
 \gamma = \frac{1}{\sqrt{1-v^2/c^2}}
@@ -399,7 +399,7 @@ $$
 
 **Examples:** 2023-Q15, 
 
-### Hubble's Law & Red Shift
+## Hubble's Law & Red Shift
 
 **Examples:** 2023-Q27; 2022-Q29;2021-Q8|12|26
 
@@ -427,7 +427,7 @@ $$
 \frac{\nu_e}{\nu_o} =\sqrt{\frac{1+\frac{v}{c}}{1-\frac{v}{c}}}
 $$
 
-#### Critical Density of the Universe
+### Critical Density of the Universe
 
 Replace the escape velocity with the speed of the light from Hubble's expansion:
 
@@ -441,7 +441,7 @@ $$
 \rho = \frac{M}{\frac{4}{3}\pi r^3} = \frac{3 H_0^2}{8\pi G} \simeq9.22 \times 10^{-27} kg \cdot m^{-3}
 $$
 
-## MISC
+# MISC
 
 ### Signal to Noise Ratio
 
@@ -459,11 +459,16 @@ is *independent* of frequency
 
 # Constants and Notations
 
-### Constants 
+## Constants 
 
 1. The absolute magnitude of the Sun: 4.83
-1. Age of the Universe: 13.3 Billion years
-1. Visible wavelength: 310 nm (ultraviolet) - 1100 nm (infrared)
+2. Age of the Universe: 13.3 Billion years
+3. Visible wavelength: 310 nm (ultraviolet) - 1100 nm (infrared)
 
-### Notations
-1. Length: pm/$\AA$​/nm/$\mu$​m/mm/cm/km/Mm: $10^{-12}, 10^{-10},10^{-9},10^{-6},10^{-3},10^{-2},10^{3},10^{6} m$​
+## Notations
+1. Length: 
+
+   ![Lengths](./figures/lengths.png)
+
+
+
