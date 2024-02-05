@@ -247,7 +247,8 @@ $$
 #### Area of the Spherical Triangle
 
 $$
-Area\ of\ triangle =A+B+C-\pi,
+Area\ of\ triangle =A+B+C-\pi\\
+Total\ Area=4\pi
 $$
 
 ### Celestial Coordinate
