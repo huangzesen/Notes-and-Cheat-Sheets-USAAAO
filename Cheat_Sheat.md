@@ -161,7 +161,7 @@ is the small change in the area
 Simple derivation can be inferred from circular orbit, where the **centrifugal force balances the gravity force**:
 
 $$
-\frac{G M m}{a^2} = m \omega^2 a  = m \left(\frac{2\pi}{T}\right)^2 a \\
+\frac{G M m}{a^2} = m v^2/a=m \omega^2 a  = m \left(\frac{2\pi}{T}\right)^2 a \\
 \frac{G M}{4\pi^2} = \frac{a^3}{T^2}
 $$
 
