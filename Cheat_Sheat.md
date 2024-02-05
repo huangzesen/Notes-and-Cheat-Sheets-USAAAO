@@ -158,10 +158,10 @@ is the small change in the area
 
 *The square of a planet's orbital period is proportional to the cube of the length of the semi-major axis of its orbit.*
 
-Simple derivation can be inferred from circular orbit, where the **centrifugal force balances the gravity force**:
+Simple derivation can be inferred from circular orbit, where the **centrifugal force balances the gravity force** ($v\omega=v^2/r=\omega^2r$ is know as the centrifugal acceleration):
 
 $$
-\frac{G M m}{a^2} = m v^2/a=m \omega^2 a  = m \left(\frac{2\pi}{T}\right)^2 a \\
+\frac{G M m}{a^2} = m \frac{v^2}{a}=m \omega^2 a  = m \left(\frac{2\pi}{T}\right)^2 a \\
 \frac{G M}{4\pi^2} = \frac{a^3}{T^2}
 $$
 
