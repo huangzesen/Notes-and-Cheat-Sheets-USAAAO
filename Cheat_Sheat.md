@@ -363,6 +363,10 @@ Where $a_{V}$ is the interstellar extinction in the unit of $mag/pc$ or $mag/kpc
 
 # Special Relativity, Hubble's Law & Red Shift
 
+## Hertzsprung–Russell diagram
+
+![H-R Diagram](./figures/HRDiagram.png)
+
 ## Special Relativity
 
 If the velocity is comparable to the speed of light $c$, the relativity effects can not be ignored.
