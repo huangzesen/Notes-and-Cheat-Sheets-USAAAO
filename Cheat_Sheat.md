@@ -311,7 +311,13 @@ For example, $f/2$ means $f = 2d$, the *larger the number, the worse the telesco
 
 ### Magnification
 
-The magnification $m=f_o/f_e$ is the ratio between the focal length of $objective$ and $eyepiece$ lens.
+The magnification:
+
+$$
+m=f_o/f_e
+$$
+
+is the ratio between the focal length of $objective$ and $eyepiece$ lens.
 
 
 
