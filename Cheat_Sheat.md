@@ -373,7 +373,7 @@ Where $a_{V}$ is the interstellar extinction in the unit of $mag/pc$ or $mag/kpc
 
 ![H-R Diagram](./figures/HRDiagram.png)
 
-## Special Relativity
+## Special Relativity and Cosmology
 
 If the velocity is comparable to the speed of light $c$, the relativity effects can not be ignored.
 
@@ -472,7 +472,7 @@ is *independent* of frequency
 ## Constants 
 
 1. The absolute magnitude of the Sun: 4.83
-2. Age of the Universe: 13.3 Billion years
+2. Age of the Universe: 13.4 Billion years
 3. Visible wavelength: 310 nm (ultraviolet) - 1100 nm (infrared)
 
 ## Notations
