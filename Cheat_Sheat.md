@@ -373,6 +373,8 @@ Where $a_{V}$ is the interstellar extinction in the unit of $mag/pc$ or $mag/kpc
 
 ![H-R Diagram](./figures/HRDiagram.png)
 
+![Hubble Sequence](./figures/Hubble_Tuning_Fork_diagram.svg.png)
+
 ## Special Relativity and Cosmology
 
 If the velocity is comparable to the speed of light $c$, the relativity effects can not be ignored.
