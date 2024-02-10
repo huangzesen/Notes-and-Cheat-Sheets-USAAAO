@@ -285,12 +285,12 @@ This way we can get the length of day.
 ### Declination of the Sun
 
 $$
-\sin\delta= \sin(23.5\degree)\cdot\sin(EL)
+\sin\delta= \sin(23.5^o)\cdot\sin(EL)
 $$
 
 $EL$ is the Eastern Longitude, i.e.
 $$
-EL=Number\ of\ Days/365 * 360\degree
+EL=Number\ of\ Days/365 * 360^o
 $$
 
 
