@@ -264,6 +264,36 @@ $\lambda$ is latitude, $\delta$ is declination
 
 ![Circumpolar](./figures/circumpolar.png)
 
+### Sunrise and Sunset Time
+
+**Sunrise** time ($\theta$, in radians):
+$$
+\cos\theta=-\tan\delta\tan\lambda
+$$
+$\delta$ is the declination of the sun (e.g. $\pm23.5\deg$​ at summer/winter solstice)
+
+$\theta$ can be turned into time first by:
+$$
+Sunrise\ time=\theta/2\pi*24Hr
+$$
+Sunset time is simply:
+$$
+Sunset\ time=24Hr - Sunrise\ time
+$$
+This way we can get the length of day.
+
+### Declination of the Sun
+
+$$
+\sin\delta= \sin(23.5\degree)\cdot\sin(EL)
+$$
+
+$EL$ is the Eastern Longitude, i.e.
+$$
+EL=Number\ of\ Days/365 * 360\degree
+$$
+
+
 # Telescope & Star Magnitudes
 
 ## Parallax
